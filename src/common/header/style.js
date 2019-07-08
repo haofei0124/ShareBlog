@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import logoPic from '../../statics/timg.jpg'
+import logoPic from '../../statics/logo.jpg'
 
 export const HeaderWrapper = styled.div`
   z-index: 1;
@@ -16,7 +16,8 @@ export const Logo = styled.div`
   width: 100px;
   height: 56px;
   background: url(${logoPic});
-  background-size: cover;
+  background-size: contain;
+  background-repeat:no-repeat;
 
 `;
 
