@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/ShareBlog/static/js/runtime~main.976a2fc1.js"
   },
   {
-    "revision": "d80e87be63a492a310fb",
-    "url": "/ShareBlog/static/js/main.d80e87be.chunk.js"
+    "revision": "9be0327f8c9cad875298",
+    "url": "/ShareBlog/static/js/main.9be0327f.chunk.js"
   },
   {
     "revision": "1a5ae14c149a0761693f",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/ShareBlog/static/js/2.dc0c31b5.chunk.js"
   },
   {
-    "revision": "5686768a01b07b0fc7adcd014add8fa5",
+    "revision": "f1eab26a338ad9fb8914eeb091778eab",
     "url": "/ShareBlog/index.html"
   }
 ];
