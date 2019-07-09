@@ -13,44 +13,44 @@ Redux
   
 2 Architecture description  
   
-┣━ build   // Package file  
-┣━ public   // Package file  
+>┣━ build   // Package file  
+>┣━ public   // Package file 
 >>┣━ api   //False data storage  
->>>>┣━ detail.json   //Article page data  
->>>>┣━ headerList.json   //Header popular search data  
->>>>┣━ home.json   //Home data  
->>>>┣━ homeList.json   //Home page loading more article data  
->>>>┣━ login.json   //Login data  
-┣━ src //Development directory  
+>>>┣━ detail.json   //Article page data  
+>>>┣━ headerList.json   //Header popular search data  
+>>>┣━ home.json   //Home data  
+>>>┣━ homeList.json   //Home page loading more article data  
+>>>┣━ login.json   //Login data  
+>┣━ src //Development directory  
 >>┣━ common   //Common component  
->>>>┣━ header   //Header component  
->>>>>>┣━ store   //Redux  
->>>>>>>>┣━ actionCreators.js   //action creator  
->>>>>>>>┣━ constants.js   //action.type  
->>>>>>>>┣━ index.js   //Entry document  
->>>>>>>>┣━ reducer.js   //reducer  
->>>>>>┣━ index   //UI component  
->>>>>>┣━ style   //Header style  
+>>>┣━ header   //Header component  
+>>>>┣━ store   //Redux  
+>>>>>┣━ actionCreators.js   //action creator  
+>>>>>┣━ constants.js   //action.type  
+>>>>>>┣━ index.js   //Entry document  
+>>>>>>┣━ reducer.js   //reducer  
+>>>>┣━ index   //UI component  
+>>>>┣━ style   //Header style  
 >>┣━ pages   // pages  
->>>>┣━ detail   // article page  
->>>>>>┣━ ...  
->>>>┣━ home   //home  
->>>>>>┣━ ...  
->>>>┣━ detail   //login  
->>>>>>┣━ ...  
->>>>┣━ detail   // write article  
->>>>>>┣━ ...  
+>>>┣━ detail   // article page  
+>>>>┣━ ...  
+>>>┣━ home   //home  
+>>>>┣━ ...  
+>>>┣━ login   //login  
+>>>>┣━ ...  
+>>>┣━ write   // write article  
+>>>>┣━ ...  
 >>┣━ statics   // statics file  
->>>>┣━ ...  
+>>>┣━ ...  
 >>┣━ store   //Redux data  
->>>>┣━ ...  
+>>>┣━ ...  
 >>┣━ App.js   //entry and router  
 >>┣━ index.js   //js entry  
 >>┣━ style.js   //style  
-┣━ .gitignore   //git  
-┣━ package.json  
-┣━ README.md  
-┣━ yarn.lock  
+>┣━ .gitignore   //git  
+>┣━ package.json  
+>┣━ README.md  
+>┣━ yarn.lock  
   
 3 Achieve some functions:  
   
