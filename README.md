@@ -1,6 +1,7 @@
 In this project mainly used React+React-Router4+Redux+Redux-thunk+Immutable  
 
 1 technology stack and Component Library  
+-------  
   
 Redux  
   
@@ -12,6 +13,8 @@ Redux
 * axios： AJAX  
   
 2 Architecture description  
+-------  
+
   
 >┣━ build   // Package file  
 >┣━ public   // Package file 
@@ -52,7 +55,8 @@ Redux
 >┣━ README.md  
 >┣━ yarn.lock  
   
-3 Achieve some functions:  
+3 Achieve some functions    
+-------  
   
 * Login, logout and unlogin intercept  
   
@@ -62,7 +66,8 @@ Redux
   
 *  Dynamic router of article page data, pass ID  
   
-4 Operation of development  environment  
+4 Operation of development environment  
+-------  
   
 Install dependencies:  
   * npm install  
